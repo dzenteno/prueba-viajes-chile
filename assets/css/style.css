@@ -30,6 +30,10 @@ nav{
     background-color: #2A9DA9;
 }
 
+.card:hover{
+    cursor: pointer;
+}
+
 /* Contacto */
 .contacto-section{
     background-color: #000;

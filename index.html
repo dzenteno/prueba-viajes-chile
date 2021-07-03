@@ -21,7 +21,8 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="#inicio"><img src="assets/img/viajes.svg" alt="Logo Viajes" class="logo-img mx-2">Viajes
+        <a class="navbar-brand" href="#inicio"><img src="assets/img/viajes.svg" alt="Logo Viajes"
+                class="logo-img mx-2">Viajes
             Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +70,8 @@
             <div class="row">
                 <div class="col-sm ">
                     <div class="icon-section text-center p-2 my-2 rounded">
-                        <i class="fas fa-plane-departure fa-2x " data-toggle="tooltip" data-placement="right" title="Viaja por aire"></i>
+                        <i class="fas fa-plane-departure fa-2x " data-toggle="tooltip" data-placement="right"
+                            title="Viaja por aire"></i>
                     </div>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita consectetur magni natus ab a enim
                     assumenda minima cum aliquam facilis ratione autem omnis officia eligendi eos nesciunt odio
@@ -86,13 +88,15 @@
                     non architecto. Itaque vel minus necessitatibus vitae modi odio laboriosam voluptatem. Ullam, id
                     iure? Magni, asperiores cupiditate impedit temporibus, minus repellendus aliquid optio unde
                     laudantium vero rerum, et quibusdam mollitia?
-                    <div class="icon-section text-center p-2 my-2 rounded" >
-                        <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="right" title="Conoce nuestros parques"></i>
+                    <div class="icon-section text-center p-2 my-2 rounded">
+                        <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="right"
+                            title="Conoce nuestros parques"></i>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="icon-section text-center p-2 my-2 rounded">
-                        <i class="fas fa-road fa-2x" data-toggle="tooltip" data-placement="right" title="Conoce nuestras rutas"></i>
+                        <i class="fas fa-road fa-2x" data-toggle="tooltip" data-placement="right"
+                            title="Conoce nuestras rutas"></i>
                     </div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat impedit soluta
                     dolores doloribus, non unde sunt quidem nostrum maiores? Accusantium nobis cum id dolore odit!
@@ -111,10 +115,10 @@
         <h1 class="text-center">Destacados</h1>
         <hr class="line">
         <div class="container">
-            
+
             <!-- cards -->
             <div class="card-deck">
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#exampleModal">
                     <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -122,7 +126,7 @@
                             additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#exampleModal2">
                     <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -130,7 +134,7 @@
                             content.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#exampleModal3">
                     <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -139,7 +143,7 @@
                             height action.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#exampleModal4">
                     <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -151,6 +155,79 @@
             </div>
         </div>
     </section>
+    <!-- Modals -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Viajes Chile modals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card1.jpg" alt="Imagen card 1" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Viajes Chile modals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card2.jpg" alt="Imagen card 2" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Viajes Chile modals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card3.jpg" alt="Imagen card 3" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Viajes Chile modals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/card4.jpg" alt="Imagen card 4" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Contacto -->
     <section class="contacto-section container-fluid py-5" id="contacto">
