@@ -21,7 +21,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Logo Viajes" class="logo-img mx-2">Viajes
+        <a class="navbar-brand" href="#inicio"><img src="assets/img/viajes.svg" alt="Logo Viajes" class="logo-img mx-2">Viajes
             Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,15 +29,15 @@
         </button>
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" href="#">Inicio</a>
-                <a class="nav-link" href="#">Quienes Somos</a>
-                <a class="nav-link" href="#">Destacado</a>
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link active" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#quienes">Quienes Somos</a>
+                <a class="nav-link" href="#destacados">Destacado</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
             </div>
         </div>
     </nav>
     <!-- Carousel -->
-    <section class="car">
+    <section class="car" id="inicio">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -62,14 +62,14 @@
     </section>
 
     <!-- Quienes somos -->
-    <section class="qn-section container-fluid text-light py-5">
+    <section class="qn-section container-fluid text-light py-5" id="quienes">
         <h1 class="text-center ">¿Quienes somos?</h1>
         <hr class="line">
         <div class="container text-justify">
             <div class="row">
                 <div class="col-sm ">
                     <div class="icon-section text-center p-2 my-2 rounded">
-                        <i class="fas fa-plane-departure fa-2x"></i>
+                        <i class="fas fa-plane-departure fa-2x " data-toggle="tooltip" data-placement="right" title="Viaja por aire"></i>
                     </div>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita consectetur magni natus ab a enim
                     assumenda minima cum aliquam facilis ratione autem omnis officia eligendi eos nesciunt odio
@@ -86,13 +86,13 @@
                     non architecto. Itaque vel minus necessitatibus vitae modi odio laboriosam voluptatem. Ullam, id
                     iure? Magni, asperiores cupiditate impedit temporibus, minus repellendus aliquid optio unde
                     laudantium vero rerum, et quibusdam mollitia?
-                    <div class="icon-section text-center p-2 my-2 rounded">
-                        <i class="fas fa-mountain fa-2x"></i>
+                    <div class="icon-section text-center p-2 my-2 rounded" >
+                        <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="right" title="Conoce nuestros parques"></i>
                     </div>
                 </div>
                 <div class="col-sm">
                     <div class="icon-section text-center p-2 my-2 rounded">
-                        <i class="fas fa-road fa-2x"></i>
+                        <i class="fas fa-road fa-2x" data-toggle="tooltip" data-placement="right" title="Conoce nuestras rutas"></i>
                     </div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat impedit soluta
                     dolores doloribus, non unde sunt quidem nostrum maiores? Accusantium nobis cum id dolore odit!
@@ -107,10 +107,11 @@
     </section>
 
     <!-- Destacados -->
-    <section class="qn-section container-fluid text-light py-5">
+    <section class="qn-section container-fluid text-light py-5" id="destacados">
+        <h1 class="text-center">Destacados</h1>
         <hr class="line">
         <div class="container">
-            <h1 class="text-center">Destacados</h1>
+            
             <!-- cards -->
             <div class="card-deck">
                 <div class="card">
@@ -152,7 +153,7 @@
     </section>
 
     <!-- Contacto -->
-    <section class="contacto-section container-fluid py-5">
+    <section class="contacto-section container-fluid py-5" id="contacto">
         <h1 class="text-center text-light">Contacto</h1>
         <hr class="line">
         <div class="container">
