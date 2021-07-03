@@ -20,7 +20,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Logo Viajes" class="logo-img mx-2">Viajes
             Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -37,7 +37,7 @@
         </div>
     </nav>
     <!-- Carousel -->
-    <section>
+    <section class="car">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -108,40 +108,76 @@
 
     <!-- Destacados -->
     <section class="qn-section container-fluid text-light py-5">
-        <h1 class="text-center">Destacados</h1>
         <hr class="line">
-        <!-- cards -->
-        <div class="card-deck">
-            <div class="card">
-              <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <div class="container">
+            <h1 class="text-center">Destacados</h1>
+            <!-- cards -->
+            <div class="card-deck">
+                <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
                 </div>
-              </div>
-          </div>
+                <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Contacto -->
+    <section class="contacto-section container-fluid py-5">
+        <h1 class="text-center text-light">Contacto</h1>
+        <hr class="line">
+        <div class="container">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/JMq8zcEG?typeform-medium=embed-snippet"
+                style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center text-light py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    VIAJES CHILE
+                </div>
+                <div class="col-sm">
+                    <i class="fab fa-github-square fa-1x mr-2"></i>
+                    <i class="fab fa-linkedin fa-1x mr-2"></i>
+                    <i class="fab fa-twitter-square fa-1x mr-2"></i>
+                    <i class="fab fa-facebook-square fa-1x "></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- jQuery v3.6.0-->
