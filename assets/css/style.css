@@ -1,15 +1,19 @@
+/* Navbar */
 nav{
     background-color: #2A9DA9; 
     /* background-color: none; */
 }
 
+/* Carousel */
 .car{
     background-color: #000;
 }
+/* Logo */
 .logo-img{
     width: 40px;
 }
 
+/* Quienes somos */
 .qn-section{
     background-color: #000;
 }
@@ -26,6 +30,7 @@ nav{
     background-color: #2A9DA9;
 }
 
+/* Cards section */
 .card-body{
     background-color: #2A9DA9;
 }
@@ -43,5 +48,12 @@ nav{
 footer{
     background-color: #2A9DA9;
     font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
+footer a{
+    color: #fff;
+}
+
+
 

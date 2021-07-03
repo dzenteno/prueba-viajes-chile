@@ -12,7 +12,7 @@ $(document).ready(function () {
     $("html").animate({
       scrollTop: $(gato).offset().top,
     },
-      800)
+      500)
   })
 
   // tooltip
